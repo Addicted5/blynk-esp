@@ -4,6 +4,7 @@ token = "YourSecretToken"
 wifi_password = "12345678"
 wifi_access_point = "BlynkIt"
 
+-- better to compile blynk.lua, wifi.lua to lc if you are not modifying it
 
 -- Load the Blynk library
 dofile ( 'blynk.lua' )

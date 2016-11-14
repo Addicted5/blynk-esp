@@ -93,7 +93,7 @@ function blynk.connect(self)
                         self.callbacks["disconnection"]()
                      end
    end)
-   self.conn:connect(8442, "blynk-cloud.com")
+   self.conn:connect(8442, "192.168.1.5")
    return self
 end
 
